@@ -13,6 +13,6 @@ idf_component_register(
     )
 
 add_prebuilt_library(myRemoteDevice "libmyRemoteDevice.a"
-PRIV_REQUIRES spi_flash app_update log)
+PRIV_REQUIRES spi_flash app_update log console espressif__led_strip)
 target_link_libraries(${COMPONENT_LIB} PRIVATE myRemoteDevice)
 
