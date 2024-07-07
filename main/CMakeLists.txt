@@ -6,7 +6,7 @@ idf_component_register(
     
     # REQUIRES esp_https_server nvs_flash bt json driver console esp_http_client 
     # app_update bootloader bootloader_support 
-    REQUIRES esp_https_ota app_update esp_http_client console driver json bt nvs_flash esp_https_server 
+    REQUIRES app_update esp_https_ota app_update esp_http_client console driver json bt nvs_flash esp_https_server 
     # esp_event nvs_flash bt esp_eth esp_http_client esp_http_server json 
     #     console app_update esp_https_ota mbedtls  bootloader_support
     # REQUIRES bootloader bootloader_support 
